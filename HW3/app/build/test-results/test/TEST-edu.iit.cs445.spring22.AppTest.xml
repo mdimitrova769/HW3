@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.iit.cs445.spring22.AppTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-04-30T04:22:56" hostname="parallels-Parallels-Virtual-Platform" time="0.262">
+  <properties/>
+  <testcase name="testSwitchOff()" classname="edu.iit.cs445.spring22.AppTest" time="0.147"/>
+  <testcase name="testPushPushButtonFalse()" classname="edu.iit.cs445.spring22.AppTest" time="0.009"/>
+  <testcase name="testSwitchOn()" classname="edu.iit.cs445.spring22.AppTest" time="0.016"/>
+  <testcase name="testLightbulbOff()" classname="edu.iit.cs445.spring22.AppTest" time="0.006"/>
+  <testcase name="testCreateButtonObject()" classname="edu.iit.cs445.spring22.AppTest" time="0.007"/>
+  <testcase name="testLightbulb()" classname="edu.iit.cs445.spring22.AppTest" time="0.007"/>
+  <testcase name="testLightbulbOn()" classname="edu.iit.cs445.spring22.AppTest" time="0.018"/>
+  <testcase name="testPushPushButtonTrue()" classname="edu.iit.cs445.spring22.AppTest" time="0.007"/>
+  <testcase name="testCreatePushButton()" classname="edu.iit.cs445.spring22.AppTest" time="0.005"/>
+  <testcase name="testCreateButton()" classname="edu.iit.cs445.spring22.AppTest" time="0.007"/>
+  <system-out><![CDATA[Switch created
+Button created
+Lightbulb created
+Button switched OFF
+Switch created
+PushButton created
+PushButton off
+Switch created
+Button created
+Lightbulb created
+Button switched ON
+Switch created
+Button created
+Lightbulb created
+Lightbulb off
+Switch created
+Button created
+Lightbulb created
+Switch created
+Button created
+Lightbulb created
+Switch created
+Button created
+Lightbulb created
+Lightbulb on
+Switch created
+PushButton created
+PushButton on
+Switch created
+PushButton created
+Switch created
+Button created
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

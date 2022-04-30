@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Switch.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">Button</a> &gt; <span class="el_source">Switch.java</span></div><h1>Switch.java</h1><pre class="source lang-java linenums">package Button;
+
+import Lightbulb.Lightbulb;
+
+public class Switch {
+	
+<span class="fc" id="L7">	private boolean switchTurn = false;</span>
+	Lightbulb lightBody;
+	
+<span class="fc" id="L10">	public Switch() {</span>
+<span class="fc" id="L11">		System.out.println(&quot;Switch created&quot;);</span>
+<span class="fc" id="L12">	}</span>
+	
+	public Switch(Lightbulb lightBody) {
+<span class="fc" id="L15">		super();</span>
+<span class="fc" id="L16">		this.lightBody = lightBody;</span>
+<span class="fc" id="L17">	}</span>
+	
+	public void setSwitchTurn(boolean turn) {
+<span class="fc" id="L20">		switchTurn = turn;</span>
+<span class="fc" id="L21">	}</span>
+	
+	public boolean getSwitchTurn() {
+<span class="fc" id="L24">		return this.switchTurn;</span>
+	}
+	
+	public Lightbulb getLightBulb() {
+<span class="fc" id="L28">		return lightBody;</span>
+	}
+	
+	public void pushButton() {
+<span class="nc bnc" id="L32" title="All 2 branches missed.">		if (lightBody.equals(null)) {</span>
+<span class="nc" id="L33">			lightBody.off();</span>
+		}
+		else {
+<span class="nc" id="L36">			lightBody.on();</span>
+		}
+<span class="nc" id="L38">	}</span>
+	
+	public void switchTurnOn() {
+<span class="fc" id="L41">		setSwitchTurn(true);</span>
+<span class="fc" id="L42">	}</span>
+	
+	public void switchTurnOff() {
+<span class="fc" id="L45">		setSwitchTurn(false);</span>
+<span class="fc" id="L46">	}</span>
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
